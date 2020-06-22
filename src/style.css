@@ -691,7 +691,7 @@ footer {
   }
 
   .footer-bg {
-    height: 75vh;
+    max-height: 120vh;
   }
 
   .garansi {
