@@ -578,7 +578,8 @@ footer {
 
   .features img {
     width: 180px;
-    height: auto;
+    height: 130px;
+    padding-left: 5%;
   }
 
   .features h2 {
