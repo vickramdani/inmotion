@@ -582,6 +582,10 @@ footer {
     margin-left: 3%;
   }
 
+  .features img:first-child {
+    margin-left: 0;
+  }
+
   .features h2 {
     font-size: 20px;
     line-height: 24px;
