@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -24,19 +24,19 @@ header {
 }
 
 .header-icon {
-  width: 560px;
+  width: 530px;
   height: auto;
   position: absolute;
   top: 5%;
-  right: 8%;
-  max-width: 40%;
+  right: 7%;
+  max-width: 38%;
 }
 
 .header-txt {
   position: absolute;
   top: 17%;
   left: 10%;
-  max-width: 40%;
+  max-width: 45%;
   color: #fff;
 }
 
@@ -54,7 +54,7 @@ header {
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .btn-header,
@@ -69,7 +69,7 @@ header {
 
 .btn-header {
   padding: 15px 22px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 25px;
   line-height: 37px;
 }
@@ -131,8 +131,8 @@ header {
 
 .close {
   position: absolute;
-  top: 12px;
-  left: 800px;
+  bottom: 103%;
+  left: 94%;
   z-index: 2;
 }
 
@@ -164,6 +164,7 @@ header {
   grid-template-rows: repeat(2, 1fr);
   justify-items: center;
   grid-gap: 25px;
+  padding: 45px;
 }
 
 .features img {
@@ -198,8 +199,9 @@ header {
 }
 
 .section-4 h1 {
+  font-family: "Montserrat", sans-serif;
   display: inline-block;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 54px;
   line-height: 66px;
   color: #b85a6c;
@@ -292,10 +294,11 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  padding: 30px;
 }
 
 .package {
-  height: 550px;
+  height: 580px;
   margin-top: 20px;
 }
 
@@ -323,7 +326,7 @@ header {
 }
 
 .package h2 {
-  font-size: 42px;
+  font-size: 38px;
   line-height: 44px;
   color: #141c43;
 }
@@ -337,12 +340,12 @@ header {
 .package p,
 .pertalite p {
   font-size: 17px;
-  line-height: 21px;
+  line-height: 28px;
 }
 
 .pertalite {
   background: linear-gradient(180deg, #b85a6c 0%, #151d44 100%);
-  height: 600px;
+  height: 640px;
   position: relative;
 }
 
@@ -365,24 +368,26 @@ header {
 }
 
 .pertalite h2 {
-  font-size: 47px;
+  font-size: 42px;
   line-height: 55px;
 }
 
 .btn-package {
   padding: 10px;
+  font-size: 20px;
+  width: 250px;
 }
 
 .premium button {
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .pertalite button {
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 .pertamax button {
-  margin-top: 65px;
+  margin-top: 17px;
 }
 
 footer {
@@ -395,6 +400,10 @@ footer {
 
 .footer-content {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   top: 37%;
   left: 28%;
   max-width: 50%;
@@ -402,35 +411,34 @@ footer {
 
 .garansi {
   position: relative;
-}
-
-.garansi img {
-  position: absolute;
-  bottom: 40%;
-  left: 85%;
-  max-width: 20%;
-  height: auto;
-}
-
-.garansi {
   border: 5px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
   text-align: center;
   color: #fff;
-  padding: 20px 100px 20px 20px;
+  padding: 30px 100px 30px 20px;
+  width: 720px;
+  margin-right: 10%;
+}
+
+.garansi img {
+  position: absolute;
+  bottom: 38%;
+  left: 80%;
+  max-width: 30%;
+  height: auto;
 }
 
 .garansi h2 {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 39px;
+  font-size: 40px;
+  line-height: 49px;
 }
 
 .garansi p,
 .logo p {
-  font-size: 24px;
-  line-height: 27px;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .logo {
@@ -457,6 +465,10 @@ footer {
   display: flex;
 }
 
+.email {
+  margin-right: 250px;
+}
+
 .fa {
   margin-right: 10px;
   font-size: 30px;
@@ -473,6 +485,11 @@ footer {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header-txt {
+    top: 10%;
+    left: 6%;
+  }
+
   .title-header {
     font-size: 0.9rem;
     line-height: 18px;
@@ -480,8 +497,8 @@ footer {
   }
 
   .title-txt {
-    font-size: 0.4rem;
-    line-height: 9px;
+    font-size: 0.56rem;
+    line-height: 15px;
     margin-bottom: 10px;
   }
 
@@ -493,14 +510,14 @@ footer {
   .btn-header {
     padding: 3px 8px;
     margin-bottom: 5px;
-    font-size: 7px;
+    font-size: 9px;
     line-height: 17px;
   }
 
   .how-it-works {
     font-size: 7px;
     line-height: 15px;
-    margin-left: 8px;
+    margin-left: 0px;
   }
 
   .section-1 {
@@ -520,13 +537,29 @@ footer {
   }
 
   .section-2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .video-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-row-gap: 5px;
+    padding: 0px 40px;
+  }
+
+  .holder img {
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .close {
+    bottom: 105%;
+    left: 89%;
+  }
+
+  .close span {
+    padding: 5px 12px;
   }
 
   .yt-channel {
@@ -544,9 +577,8 @@ footer {
   }
 
   .features img {
-    width: 200px;
+    width: 180px;
     height: auto;
-    margin-left: 20px;
   }
 
   .features h2 {
@@ -615,14 +647,14 @@ footer {
 
   .package {
     height: 410px;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .package,
   .pertalite {
     padding: 24px;
     text-align: center;
-    width: 220px;
+    width: 240px;
     border-radius: 15px;
   }
 
@@ -633,7 +665,7 @@ footer {
   }
 
   .package h2 {
-    font-size: 25px;
+    font-size: 26px;
     line-height: 20px;
     color: #141c43;
   }
@@ -656,6 +688,11 @@ footer {
     position: relative;
   }
 
+  .btn-package {
+    font-size: 25px;
+    width: 150px;
+  }
+
   .star {
     position: absolute;
     top: 15px;
@@ -675,7 +712,7 @@ footer {
 
   .btn-package {
     padding: 8px;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .premium button {
@@ -695,33 +732,36 @@ footer {
   }
 
   .garansi {
-    padding: 6px;
+    padding: 10px 35px 10px 18px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
+    width: 280px;
+    margin-right: 10%;
   }
 
   .garansi img {
-    bottom: 65%;
+    width: 250px;
+    bottom: 50%;
     left: 85%;
   }
 
   .logo {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .garansi h2 {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 19px;
   }
 
   .garansi p,
   .logo p {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 11px;
+    line-height: 18px;
   }
 
   .logo img {
-    width: 80px;
+    width: 150px;
     height: auto;
   }
 
@@ -738,6 +778,10 @@ footer {
     font-size: 14px;
   }
 
+  .email {
+    margin-right: 100px;
+  }
+
   .email p,
   .ig p {
     font-size: 8px;
@@ -746,6 +790,11 @@ footer {
 }
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .header-txt {
+    top: 12%;
+    left: 7%;
+  }
+
   .title-header {
     font-size: 1.3rem;
     line-height: 28px;
@@ -753,14 +802,14 @@ footer {
   }
 
   .title-txt {
-    font-size: 0.6rem;
-    line-height: 16px;
+    font-size: 0.7rem;
+    line-height: 21px;
     margin-bottom: 10px;
   }
 
   .btn-header {
     padding: 3px 8px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 12px;
     line-height: 17px;
   }
@@ -795,6 +844,18 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 10px;
+    padding: 0px 40px;
+  }
+
+  .holder img {
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .close {
+    bottom: 105%;
+    left: 90%;
   }
 
   .yt-channel {
@@ -852,15 +913,15 @@ footer {
   }
 
   .package {
-    margin-top: 10px;
-    height: 410px;
+    margin-top: 0px;
+    height: 430px;
   }
 
   .package,
   .pertalite {
     padding: 24px;
     text-align: center;
-    width: 250px;
+    width: 260px;
   }
 
   .package h3 {
@@ -888,7 +949,7 @@ footer {
   }
 
   .pertalite {
-    height: 430px;
+    height: 460px;
   }
 
   .pertalite h3 {
@@ -902,15 +963,18 @@ footer {
   }
 
   .btn-package {
-    padding: 8px;
-    font-size: 14px;
+    font-size: 16px;
+    width: 170px;
   }
 
   .premium button {
     margin-top: 60px;
   }
 
-  .pertalite button,
+  .pertalite button {
+    margin-top: 15px;
+  }
+
   .pertamax button {
     margin-top: 5px;
   }
@@ -925,13 +989,16 @@ footer {
   }
 
   .garansi {
-    padding: 8px;
+    padding: 10px 35px 10px 18px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
+    width: 330px;
+    margin-right: 10%;
   }
 
   .garansi img {
-    bottom: 65%;
+    width: 250px;
+    bottom: 40%;
     left: 85%;
   }
 
@@ -941,7 +1008,7 @@ footer {
 
   .garansi h2 {
     font-size: 18px;
-    line-height: 29px;
+    line-height: 19px;
   }
 
   .garansi p,
@@ -951,7 +1018,7 @@ footer {
   }
 
   .logo img {
-    width: 120px;
+    width: 200px;
     height: auto;
   }
 
@@ -960,7 +1027,7 @@ footer {
   }
 
   .contact {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .fa {
@@ -972,6 +1039,10 @@ footer {
   .ig p {
     font-size: 12px;
     margin-right: 10px;
+  }
+
+  .email {
+    margin-right: 100px;
   }
 }
 
@@ -989,9 +1060,9 @@ footer {
   }
 
   .btn-header {
-    padding: 7px 10px;
-    margin-bottom: 5px;
-    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 16px;
     line-height: 17px;
   }
 
@@ -1025,6 +1096,11 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
+  }
+
+  .close {
+    bottom: 105%;
+    left: 90%;
   }
 
   .yt-channel {
@@ -1088,15 +1164,22 @@ footer {
   }
 
   .package {
-    margin-top: 10px;
-    height: 420px;
+    margin-top: 20px;
+    height: 400px;
   }
 
   .package,
   .pertalite {
     padding: 24px;
     text-align: center;
-    width: 220px;
+  }
+
+  .package {
+    width: 200px;
+  }
+
+  .pertalite {
+    width: 215px;
   }
 
   .package h3 {
@@ -1120,11 +1203,11 @@ footer {
   .package p,
   .pertalite p {
     font-size: 10px;
-    line-height: 21px;
+    line-height: 18px;
   }
 
   .pertalite {
-    height: 450px;
+    height: 440px;
   }
 
   .pertalite h3 {
@@ -1138,16 +1221,17 @@ footer {
   }
 
   .btn-package {
-    padding: 8px;
+    padding: 5px;
     font-size: 14px;
+    width: 140px;
   }
 
   .premium button {
-    margin-top: 70px;
+    margin-top: 60px;
   }
 
   .pertalite button {
-    margin-top: 6xpx;
+    margin-top: 45px;
   }
 
   .pertamax button {
@@ -1155,7 +1239,9 @@ footer {
   }
 
   .star {
-    width: 26px;
+    width: 23px;
+    top: 8px;
+    right: 5px;
   }
 
   .footer-bg {
@@ -1163,33 +1249,36 @@ footer {
   }
 
   .garansi {
-    padding: 12px;
+    padding: 10px 35px 10px 18px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
+    width: 420px;
+    margin-right: 10%;
   }
 
   .garansi img {
-    bottom: 65%;
+    width: 250px;
+    bottom: 40%;
     left: 85%;
   }
 
   .logo {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .garansi h2 {
     font-size: 22px;
-    line-height: 29px;
+    line-height: 26px;
   }
 
   .garansi p,
   .logo p {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 25px;
   }
 
   .logo img {
-    width: 150px;
+    width: 300px;
     height: auto;
   }
 
@@ -1198,7 +1287,7 @@ footer {
   }
 
   .contact {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 
   .fa {
@@ -1210,5 +1299,9 @@ footer {
   .ig p {
     font-size: 15px;
     margin-right: 10px;
+  }
+
+  .email {
+    margin-right: 120px;
   }
 }
