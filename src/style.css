@@ -610,7 +610,7 @@ footer {
   }
 
   .mobile-bg {
-    height: 125vh;
+    height: 130vh;
     display: block;
   }
 
@@ -801,7 +801,7 @@ footer {
   }
 
   .logo img {
-    max-width: 100%;
+    max-width: 120%;
   }
 
   .link-medis {
@@ -1005,6 +1005,10 @@ footer {
     margin-top: 10px;
   }
 
+  .logos {
+    max-width: 110%;
+  }
+
   .garansi h2 {
     font-size: 16px;
     line-height: 19px;
@@ -1016,8 +1020,13 @@ footer {
     line-height: 18px;
   }
 
+  .invektor {
+    width: 200px;
+    height: auto;
+  }
+
   .logo img {
-    width: 80px;
+    width: 100px;
     height: auto;
   }
 
@@ -1050,7 +1059,7 @@ footer {
   /* Header */
 
   .mobile-bg {
-    height: 150vh;
+    height: 145vh;
     display: block;
   }
 
@@ -1418,6 +1427,11 @@ footer {
     margin-top: 20px;
   }
 
+  .logos {
+    max-width: 100%;
+  }
+
+
   .garansi h2 {
     font-size: 18px;
     line-height: 19px;
@@ -1429,7 +1443,7 @@ footer {
     line-height: 18px;
   }
 
-  .logo img {
+  .invektor {
     width: 150px;
     height: auto;
   }
