@@ -19,8 +19,8 @@ function autoPlayYouTubeModal() {
     e.preventDefault();
     const theModal = $(this).data("target");
     const videoSRC = $(this).data("src");
-    const videoSRCauto = videoSRC + "?autoplay=1";
-    $(theModal + " iframe").attr("src", videoSRCauto);
+    
+    $(theModal + " iframe").attr("src", videoSRC);
     $(theModal).on("hidden.bs.modal", function() {
       $(theModal + " iframe").attr("src", "");
     });
