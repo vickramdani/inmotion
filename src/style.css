@@ -610,7 +610,7 @@ footer {
   }
 
   .mobile-bg {
-    height: 100vh;
+    height: 110vh;
     display: block;
   }
 
@@ -666,6 +666,7 @@ footer {
 
   .section-1 {
     margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   .section-1 h2 {
@@ -806,7 +807,6 @@ footer {
 
   .link-medis {
     margin-left: 10px;
-    max-width: 50%;
   }
 
   .link-medis img {
@@ -897,6 +897,7 @@ footer {
     width: 260px;
     border-radius: 15px;
     margin-left: 0;
+    margin-right: 10px;
   }
 
   .package h3 {
@@ -983,8 +984,12 @@ footer {
 
   /* Footer */
 
+  footer {
+    overflow: hidden;
+  }
+
   .footer-bg {
-    max-height: 130vh;
+    max-height: 140vh;
   }
 
   .garansi {
@@ -1006,7 +1011,7 @@ footer {
   }
 
   .logos {
-    max-width: 110%;
+    max-width: 70%;
   }
 
   .garansi h2 {
@@ -1021,13 +1026,11 @@ footer {
   }
 
   .invektor {
-    width: 200px;
+    width: 120px;
     height: auto;
-  }
-
-  .logo img {
-    width: 100px;
-    height: auto;
+    margin-right: 50px;
+    padding-right: 20px;
+    margin-left: 0px;
   }
 
   .logo p {
@@ -1035,7 +1038,7 @@ footer {
   }
 
   .contact {
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   .fa {
