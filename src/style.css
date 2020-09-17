@@ -872,6 +872,7 @@ footer {
   #package-list {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
+    padding-right: 20px;
   }
 
   .package {
