@@ -605,8 +605,12 @@ footer {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .mobile-bg {
-    height: 150vh;
+    height: 125vh;
     display: block;
   }
 
@@ -616,9 +620,9 @@ footer {
 
   .header-txt {
     top: 10%;
-    left: 16%;
+    left: 11%;
     text-align: center;
-    max-width: 70%;
+    max-width: 80%;
   }
 
   .header-icon {
@@ -626,15 +630,15 @@ footer {
   }
 
   .title-header {
-    font-size: 1.4rem;
-    line-height: 22px;
+    font-size: 1.6rem;
+    line-height: 24px;
     margin-bottom: 6px;
     text-align: center;
   }
 
   .title-txt {
-    font-size: 0.8rem;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 24px;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -645,15 +649,15 @@ footer {
   }
 
   .btn-header {
-    padding: 3px 8px;
+    padding: 6px 12px;
     margin-bottom: 5px;
     margin-top: 10px;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 17px;
   }
 
   .how-it-works {
-    font-size: 8px;
+    font-size: 10px;
     line-height: 15px;
     margin-left: 0px;
   }
@@ -792,7 +796,7 @@ footer {
   }
 
   .logo {
-    max-width: 50%;
+    max-width: 35%;
     margin: 0px 10px;
   }
 
@@ -802,6 +806,11 @@ footer {
 
   .link-medis {
     margin-left: 10px;
+    max-width: 50%;
+  }
+
+  .link-medis img {
+    max-width: 140%;
   }
 
   .lkpp {
@@ -840,16 +849,20 @@ footer {
     max-width: 23%;
   }
 
+  .lkpp img {
+    max-width: 110%;
+  }
+
   .unwind img {
-    max-width: 80%;
+    max-width: 120%;
   }
 
   .surya img {
-    max-width: 70%;
+    max-width: 100%;
   }
 
   .almaya img {
-    max-width: 50%;
+    max-width: 60%;
   }
 
   .disinfektan img {
@@ -873,7 +886,7 @@ footer {
   }
 
   .package {
-    height: 540px;
+    height: 560px;
     margin-top: 0px;
   }
 
@@ -881,9 +894,8 @@ footer {
   .pertalite {
     padding: 24px;
     text-align: center;
-    width: 240px;
+    width: 260px;
     border-radius: 15px;
-    margin-right: 40px;
     margin-left: 0;
   }
 
@@ -914,19 +926,19 @@ footer {
 
   .package h2,
   .pertalite h2 {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-weight: bold;
   }
 
   .package p,
   .pertalite p {
-    font-size: 11px;
+    font-size: 13px;
     margin-left: 20px;
   }
 
   .pertalite {
     background: linear-gradient(180deg, #b85a6c 0%, #151d44 100%);
-    height: 540px;
+    height: 560px;
     position: relative;
   }
 
@@ -986,7 +998,7 @@ footer {
   .garansi img {
     width: 100px;
     bottom: 50%;
-    left: 85%;
+    left: 82%;
   }
 
   .logo {
@@ -1038,7 +1050,7 @@ footer {
   /* Header */
 
   .mobile-bg {
-    height: 180vh;
+    height: 150vh;
     display: block;
   }
 
@@ -1047,10 +1059,10 @@ footer {
   }
 
   .header-txt {
-    top: 12%;
-    left: 16%;
+    top: 10%;
+    left: 11%;
     text-align: center;
-    max-width: 70%;
+    max-width: 80%;
   }
 
   .header-icon {
@@ -1058,15 +1070,15 @@ footer {
   }
 
   .title-header {
-    font-size: 1.6rem;
-    line-height: 28px;
-    margin-bottom: 6px;
+    font-size: 1.7rem;
+    line-height: 30px;
+    margin-bottom: 8px;
     text-align: center;
   }
 
   .title-txt {
-    font-size: 1rem;
-    line-height: 24px;
+    font-size: 1.1rem;
+    line-height: 26px;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -1077,10 +1089,10 @@ footer {
   }
 
   .btn-header {
-    padding: 8px 12px;
+    padding: 10px 14px;
     margin-bottom: 5px;
     margin-top: 12px;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 17px;
   }
 
@@ -1231,6 +1243,7 @@ footer {
 
   .lkpp {
     margin-left: 10px;
+    max-width: 40%;
   }
 
   .aice,
@@ -1295,7 +1308,7 @@ footer {
   .pertalite {
     padding: 24px;
     text-align: center;
-    width: 260px;
+    width: 280px;
     border-radius: 15px;
   }
 
@@ -1326,14 +1339,14 @@ footer {
 
   .package h2,
   .pertalite h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: bold;
   }
 
   .package p,
   .pertalite p {
-    font-size: 12px;
-    margin-left: 20px;
+    font-size: 15px;
+    margin-left: 23px;
   }
 
   .pertalite {
@@ -1450,7 +1463,8 @@ footer {
   /* Header */
 
   .bg {
-    height: 90vh;
+    height: 70vh;
+    display: block;
   }
 
   .mobile-bg {
