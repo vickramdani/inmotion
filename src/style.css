@@ -607,8 +607,7 @@ footer {
   }
 
   .mobile-bg {
-    object-fit: cover;
-    width: 100vw;
+    object-fit: contain;
     height: 110vh;
     display: block;
   }
