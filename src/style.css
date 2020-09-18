@@ -611,8 +611,7 @@ footer {
   }
 
   .mobile-bg {
-    object-fit: cover;
-    height: 80vh;
+    height: 100vh;
     display: block;
   }
 
@@ -1076,7 +1075,6 @@ footer {
     display: block;
   }
 
-
   .computer {
     height: auto;
     position: absolute;
@@ -1085,7 +1083,6 @@ footer {
     max-width: 75%;
     display: block;
   }
-
 
   .bg {
     display: none;
