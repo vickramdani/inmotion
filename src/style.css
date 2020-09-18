@@ -34,6 +34,10 @@ header {
   max-width: 38%;
 }
 
+.computer {
+  display: none;
+}
+
 .header-txt {
   position: absolute;
   top: 17%;
@@ -607,7 +611,17 @@ footer {
   }
 
   .mobile-bg {
-    height: 100vh;
+    object-fit: cover;
+    height: 120vh;
+    display: block;
+  }
+
+  .computer {
+    height: auto;
+    position: absolute;
+    bottom: 18%;
+    right: 15%;
+    max-width: 70%;
     display: block;
   }
 
@@ -1058,9 +1072,20 @@ footer {
 
   .mobile-bg {
     object-fit: cover;
-    height: 130vh;
+    height: 140vh;
     display: block;
   }
+
+
+  .computer {
+    height: auto;
+    position: absolute;
+    bottom: 17%;
+    right: 13%;
+    max-width: 75%;
+    display: block;
+  }
+
 
   .bg {
     display: none;
