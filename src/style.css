@@ -610,8 +610,13 @@ footer {
     overflow-x: hidden;
   }
 
+  header {
+    overflow: hidden;
+  }
+
   .mobile-bg {
     max-height: 105vh;
+    object-fit: cover;
     display: block;
   }
 
