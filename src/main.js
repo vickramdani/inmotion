@@ -9,22 +9,23 @@ import "./style.css";
 
 AOS.init();
 
-const browser = (function() {
+function browserDetect() {
   let test = function(regexp) {
     return regexp.test(window.navigator.userAgent);
   };
   switch (true) {
     case test(/firefox|fxios/i):
-      return "Mozilla Firefox";
+      console.log("Mozilla Firefox");
     case test(/opr\//i):
-      return "Opera";
+      console.log("Opera");
     case test(/chrome|chromium|crios/i):
-      return "Google Chrome";
+      console.log("Google Chrome");
     default:
-      return "Please open this site with Chrome, Opera, or Firefox for better experience";
+      alert("Please open this site with Chrome, Opera, or Firefox for better experience");
   }
-})();
-alert(browser);
+};
+
+browserDetect();
 
 $(document).ready(function() {
   autoPlayYouTubeModal();
