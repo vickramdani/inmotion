@@ -13,17 +13,19 @@ function browserDetect() {
   let test = function(regexp) {
     return regexp.test(window.navigator.userAgent);
   };
-  switch (true) {
-    case test(/firefox|fxios/i):
-      console.log("Mozilla Firefox");
-    case test(/opr\//i):
-      console.log("Opera");
-    case test(/chrome|chromium|crios/i):
-      console.log("Google Chrome");
-    default:
-      alert("Please open this site with Chrome, Opera, or Firefox for better experience");
+
+  if (
+    test(/firefox|fxios/i) === true ||
+    test(/opr\//i) === true ||
+    test(/chrome|chromium|crios/i) === true
+  ) {
+    console.log("hello");
+  } else {
+    alert(
+      "Please open this site with Chrome, Opera, or Firefox for better experience"
+    );
   }
-};
+}
 
 browserDetect();
 
