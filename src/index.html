@@ -453,6 +453,26 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+      function browserDetect() {
+        let test = function(regexp) {
+          return regexp.test(window.navigator.userAgent);
+        };
+
+        if (
+          test(/firefox|fxios/i) === true ||
+          test(/opr\//i) === true ||
+          test(/chrome|chromium|crios/i) === true
+        ) {
+          alert("hello");
+        } else {
+          alert(
+            "Please open this site with Chrome, Opera, or Firefox for better experience"
+          );
+        }
+      }
+
+      browserDetect();
+
     </script>
     <script src="main.js"></script>
   </body>
