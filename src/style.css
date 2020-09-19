@@ -1028,6 +1028,7 @@ footer {
 
   .logos {
     max-width: 120%;
+    max-height: 40%;
     background-color: #b35668;
   }
 
