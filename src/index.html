@@ -458,16 +458,19 @@
           return regexp.test(window.navigator.userAgent);
         };
 
-        if (
-          test(/firefox|fxios/i) === true ||
-          test(/opr\//i) === true ||
-          test(/chrome|chromium|crios/i) === true
-        ) {
-          alert("hello");
-        } else {
-          alert(
-            "Please open this site with Chrome, Opera, or Firefox for better experience"
-          );
+        switch (true) {
+          case test(/edg/i):
+            alert("Microsoft Edge");
+          case test(/trident/i):
+            alert("Microsoft Internet Explorer");
+          case test(/firefox|fxios/i):
+            alert("Mozilla Firefox");
+          case test(/opr\//i):
+            alert("Opera");
+          case test(/chrome|chromium|crios/i):
+            alert("Google Chrome");
+          default:
+            alert("Other");
         }
       }
 
