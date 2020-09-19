@@ -1077,19 +1077,23 @@ footer {
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* Header */
 
+  header {
+    max-height: 120vh;
+  }
+
   .mobile-bg {
     object-fit: cover;
-    height: 140vh;
+    max-width: 100%;
+    height: auto;
     display: block;
+    padding-bottom: 20px;
   }
 
   .computer {
     height: auto;
-    position: absolute;
-    bottom: 17%;
-    right: 13%;
-    max-width: 75%;
+    max-width: 100%;
     display: block;
+    margin-top: 40px;
   }
 
   .bg {
@@ -1100,6 +1104,10 @@ footer {
     top: 10%;
     left: 11%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     max-width: 80%;
   }
 
@@ -1128,7 +1136,6 @@ footer {
 
   .btn-header {
     padding: 10px 14px;
-    margin-bottom: 5px;
     margin-top: 12px;
     font-size: 18px;
     line-height: 17px;
