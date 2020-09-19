@@ -461,16 +461,22 @@
         switch (true) {
           case test(/edg/i):
             alert("Microsoft Edge");
+            break;
           case test(/trident/i):
             alert("Microsoft Internet Explorer");
+            break;
           case test(/firefox|fxios/i):
             alert("Mozilla Firefox");
+            break;
           case test(/opr\//i):
             alert("Opera");
+            break;
           case test(/chrome|chromium|crios/i):
             alert("Google Chrome");
+            break;
           default:
             alert("Other");
+            break;
         }
       }
 
