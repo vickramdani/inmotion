@@ -625,7 +625,7 @@ footer {
   .computer {
     height: auto;
     position: absolute;
-    bottom: 6%;
+    bottom: 9%;
     right: 13%;
     max-width: 75%;
     display: block;
@@ -683,7 +683,7 @@ footer {
 
   .section-1 {
     margin-bottom: 30px;
-    margin-top: 180px;
+    margin-top: 140px;
   }
 
   .section-1 h2 {
