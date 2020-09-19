@@ -611,21 +611,23 @@ footer {
   }
 
   header {
-    overflow: hidden;
+    max-height: 110vh;
   }
 
   .mobile-bg {
-    max-height: 105vh;
     object-fit: cover;
+    max-width: 100%;
+    height: auto;
     display: block;
+    padding-bottom: 20px;
   }
 
   .computer {
     height: auto;
     position: absolute;
-    bottom: 18%;
-    right: 15%;
-    max-width: 70%;
+    bottom: 6%;
+    right: 13%;
+    max-width: 75%;
     display: block;
   }
 
@@ -681,7 +683,7 @@ footer {
 
   .section-1 {
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 180px;
   }
 
   .section-1 h2 {
