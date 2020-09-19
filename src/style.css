@@ -624,11 +624,9 @@ footer {
 
   .computer {
     height: auto;
-    position: absolute;
-    bottom: 13.5%;
-    right: 13%;
-    max-width: 75%;
+    max-width: 90%;
     display: block;
+    margin-top: 30px;
   }
 
   .bg {
@@ -639,6 +637,10 @@ footer {
     top: 12%;
     left: 10%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     max-width: 80%;
   }
 
@@ -667,7 +669,6 @@ footer {
 
   .btn-header {
     padding: 6px 12px;
-    margin-bottom: 5px;
     margin-top: 10px;
     font-size: 13px;
     line-height: 17px;
