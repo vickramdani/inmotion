@@ -1029,7 +1029,7 @@ footer {
   .logos {
     max-width: 100%;
     height: auto;
-    background-color: aqua;
+    background-color: red;
   }
 
   .garansi h2 {
@@ -1045,7 +1045,7 @@ footer {
 
   .invektor {
     object-fit: cover;
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     display: block;
     margin-right: 50px;
