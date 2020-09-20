@@ -611,7 +611,7 @@ footer {
   }
 
   header {
-    max-height: 110vh;
+    max-height: 140vh;
   }
 
   .mobile-bg {
@@ -684,7 +684,6 @@ footer {
 
   .section-1 {
     margin-bottom: 30px;
-    margin-top: 82px;
   }
 
   .section-1 h2 {
@@ -1081,7 +1080,7 @@ footer {
   /* Header */
 
   header {
-    max-height: 120vh;
+    max-height: 180vh;
   }
 
   .mobile-bg {
@@ -1153,7 +1152,6 @@ footer {
   /* Section 1 Prolog */
 
   .section-1 {
-    margin-top: 70px;
     margin-bottom: 30px;
   }
 
