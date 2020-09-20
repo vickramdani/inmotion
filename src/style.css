@@ -1029,7 +1029,12 @@ footer {
   .logos {
     max-width: 100%;
     height: auto;
-    background-color: red;
+  }
+
+  .logos a {
+    background-color: #01a543;
+    max-width: 50%;
+    height: auto;
   }
 
   .garansi h2 {
